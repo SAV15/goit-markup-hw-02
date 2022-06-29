@@ -1,6 +1,7 @@
 .main-index {
     width: 1600px;
     height: 2350px;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -16,6 +17,10 @@ header {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
+}
+
+.header-logo{
+    color: black;
 }
 
 .blue-text{
@@ -41,7 +46,7 @@ header {
     color: #2196F3;
 }
 
-.contacts{
+.contacts-header{
     display: flex;
     height: 16px;
     margin-top: 32px;
@@ -161,17 +166,89 @@ header {
 
 .our-team{
     margin-top: 94px;
+    padding-top: 94px;
     height: 648px;
     width: 1600px;
     background-color: #F5F4FA;
 }
 
 .our-team-title{
-    margin: 188px auto 0; 
-    /* Доделать отступы!!! */
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;    
+}
+
+.team {
+    display: flex;
+    width: 1170px;
+    height: 368px;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+
+.team-participents{
+    width: 270px;
+    height: 368px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;    
+}
+
+.name-of-participant{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.job-title{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;    
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 1600px;
+    height: 252px;
+    background: #2F303A;    
+}
+
+.footer-logo{
+    color: white;
+}
+
+address{
+    margin-left: 215px;
+    margin-top: 20px;
+    height: 81px;
+    width: 230px;
+    justify-content: space-between;
+}
+
+.contacts-footer{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;    
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.company-adress{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;    
+    color: #FFFFFF;    
 }
