@@ -1,0 +1,177 @@
+.main-index {
+    width: 1600px;
+    height: 2350px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+
+.logo{
+    margin-left: 215px;
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.blue-text{
+    color: #2196F3;
+}
+
+.pages{
+    margin-left: 92px;
+    display: flex;
+    justify-content: space-between;
+    width: 294px;
+    margin-top: 32px;
+}
+
+.header-text{
+    height: 16px;
+    margin-top: 32px;
+}
+
+.header-blue-text{
+    height: 16px;
+    margin-top: 32px;
+    color: #2196F3;
+}
+
+.contacts{
+    display: flex;
+    height: 16px;
+    margin-top: 32px;
+}
+
+.infodevstudio{
+    margin-left: 330px;
+}
+
+.phone{
+    margin-left: 50px;
+    color: #757575;   
+}
+
+.first-part{
+    width: 1600px;
+    height: 600px;
+    margin-top: 0px;
+    background-color: #2F303A;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.businessh1{
+    position: absolute;
+    width: 700px;
+    height: 120px;
+    margin: 200px 450px 280px 450px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button{
+    margin: 30px 700px 200px 700px;
+    padding: 10px 32px;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.our-principles{
+    width: 1170px;
+    height: 100px;
+    margin: 92px 215px 92px 215px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.principles-title{
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.principle{
+    width: 270px;
+    height: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.what-we-do{
+    width: 1170px;
+    height: 390px;
+    margin-left: 215px;
+    margin-top: 92px;
+}
+
+.what-we-do-title{
+    margin: 0 auto;
+    width: 376px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;    
+}
+
+.imges-what-we-do{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.img-what-we-do{
+    width: 370px;
+    height: 294px;
+}
+
+.photo-of-the-participant{
+    width: 270px;
+    height: 260px;
+}
+
+.our-team{
+    margin-top: 94px;
+    height: 648px;
+    width: 1600px;
+    background-color: #F5F4FA;
+}
+
+.our-team-title{
+    margin: 188px auto 0; 
+    /* Доделать отступы!!! */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;    
+}
