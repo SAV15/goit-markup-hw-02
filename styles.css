@@ -1,0 +1,128 @@
+.main {
+    width: 1600px;
+    height: 2350px;
+    background-color: aqua;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+
+.logo{
+    margin-left: 215px;
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.blue-text{
+    color: #2196F3;
+}
+
+.pages{
+    margin-left: 92px;
+    display: flex;
+    justify-content: space-between;
+    width: 294px;
+}
+
+.header-text{
+    height: 16px;
+    margin-top: 32px;
+}
+
+.infodevstudio{
+    height: 16px;
+    margin-top: 32px;
+    margin-left: 330px;
+}
+
+.phone{
+    height: 16px;
+    margin-top: 32px;
+    margin-left: 50px;
+    color: #757575;   
+}
+
+.first-part{
+    width: 1600px;
+    height: 600px;
+    margin-top: 0px;
+    background-color: #2F303A;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.businessh1{
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    margin: 200px 452px 280px 452px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button{
+    margin: 30px 700px 200px 700px;
+    padding: 10px 32px;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.our-principles{
+    width: 1170px;
+    height: 100px;
+    margin: 92px 215px 92px 215px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.principles-title{
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.principle{
+    width: 270px;
+    height: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.img-what-we-do{
+    width: 370px;
+    height: 294px;
+}
+
+.photo-of-the-participant{
+    width: 270px;
+    height: 260px;
+}
