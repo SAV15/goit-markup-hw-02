@@ -1,9 +1,27 @@
+:root{
+    /* COLORS */
+    --blue-color: rgba(33, 150, 243, 1);
+    --grey-color: rgba(117, 117, 117, 1);
+    --dark-background-color: rgba(47, 48, 58, 1);
+    --black-color: rgba(33, 33, 33, 1);
+    --transparent-white:rgba(255, 255, 255, 0.6);
+    --light-grey: rgba(245, 244, 250, 1);
+
+    /* FONTS */
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+
+    /* OTHERS */
+
+}
+
 .main-index {
     width: 1600px;
     height: 2350px;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
+    color: var(--black-color);
 }
-
+/* HEADER */
 header {
     display: flex;
     flex-direction: row;
@@ -15,8 +33,10 @@ header {
     margin-top: 24px;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
+    cursor: pointer;
+    font-family: var(--secondary-font);
 }
 
 .header-logo{
@@ -24,7 +44,7 @@ header {
 }
 
 .blue-text{
-    color: #2196F3;
+    color: var(--blue-color);
 }
 
 .pages{
@@ -35,15 +55,19 @@ header {
     margin-top: 32px;
 }
 
-.header-text{
+.header-link{
     height: 16px;
     margin-top: 32px;
+    cursor: pointer;
 }
 
-.header-blue-text{
-    height: 16px;
-    margin-top: 32px;
-    color: #2196F3;
+.header-link-current{
+    color: var(--blue-color);
+}
+
+.header-link:hover,
+.header-link:focus{
+    color: var(--blue-color);
 }
 
 .contacts-header{
@@ -54,13 +78,17 @@ header {
 
 .infodevstudio{
     margin-left: 330px;
+    color: var(--blue-color);
+    text-decoration: none;
 }
 
 .phone{
     margin-left: 50px;
-    color: #757575;   
+    color: var(--grey-color);
+    text-decoration: none;
 }
-
+/* END OF HEADER */
+/* MAIN */
 .first-part{
     width: 1600px;
     height: 600px;
@@ -78,7 +106,7 @@ header {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -90,12 +118,12 @@ header {
     padding: 10px 32px;
     width: 200px;
     height: 50px;
-    background: #2196F3;
+    background: var(--blue-color);
     border-radius: 4px;
     color: #fff;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     cursor: pointer;
 }
 
@@ -112,7 +140,7 @@ header {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.42;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
@@ -124,9 +152,9 @@ header {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--grey-color);
 }
 
 .what-we-do{
@@ -142,7 +170,7 @@ header {
     height: 42px;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;    
@@ -175,7 +203,7 @@ header {
 .our-team-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;    
 }
@@ -200,7 +228,7 @@ header {
     margin-top: 30px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -210,12 +238,13 @@ header {
     margin-top: 10px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;    
+    color: var(--grey-color);
 }
-
+/* END OF MAIN */
+/* FOOTER */
 footer{
     display: flex;
     flex-direction: column;
@@ -239,16 +268,57 @@ address{
 .contacts-footer{
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;    
-    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.contacts-footer >a{
+    color: var(--transparent-white);
+
+}
+
+.contact-footer{
+    text-decoration: none;
+    color: var(--transparent-white);
 }
 
 .company-adress{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;    
-    color: #FFFFFF;    
+    color: white;    
 }
+/* END OF FOOTER */
+
+.main-portfolio {
+    width: 1600px;
+    height: 1880px;
+    font-family: var(--main-font);
+    color: var(--black-color);
+    background-color: aqua;
+}
+
+/* PORTFOLIO`S MAIN */
+.body-portfolio{
+    width: 1170px;
+    height: 1360px;
+    margin: 94px 215px 94px 215px;
+}
+
+.filters{
+    width: 610px;
+    height: 54px;
+    margin: 94px 465px 34px 465px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter{
+    padding: 6px 22px;
+    background-color: var(--light-grey);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+/* END OF PORTFOLIO`S MAIN */
