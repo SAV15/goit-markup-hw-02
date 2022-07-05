@@ -17,14 +17,13 @@
 }
 
 .main-index {
-    width: 1600px;
-    height: 2350px;
     font-family: var(--main-font);
     color: var(--black-color);
     font-weight: 400;
+    text-decoration: none;
 }
 
-h2 {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -34,19 +33,14 @@ h2 {
 
 /* HEADER */
 header {
-    display: flex;
-    flex-direction: row;
-    height: 80px;
 }
 
 .logo{
-    margin-left: 215px;
-    margin-top: 24px;
+    text-decoration: none;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    cursor: pointer;
     font-family: var(--secondary-font);
 }
 
@@ -59,16 +53,10 @@ header {
 }
 
 .pages{
-    margin-left: 92px;
-    display: flex;
-    justify-content: space-between;
-    width: 294px;
-    margin-top: 32px;
 }
 
 .header-link{
-    height: 16px;
-    margin-top: 32px;
+    text-decoration: none;
     cursor: pointer;
 }
 
@@ -87,39 +75,24 @@ header {
 }
 
 .contacts-header{
-    display: flex;
-    height: 16px;
-    margin-top: 32px;
 }
 
 .infodevstudio{
-    margin-left: 330px;
     text-decoration: none;
     color: var(--grey-color);
 }
 
 .phone{
-    margin-left: 50px;
     color: var(--grey-color);
     text-decoration: none;
 }
 /* END OF HEADER */
 /* MAIN */
 .first-part{
-    width: 1600px;
-    height: 600px;
-    margin-top: 0px;
     background-color: #2F303A;
-    display: flex;
-    flex-direction: column-reverse;
 }
 
 .businessh1{
-    position: absolute;
-    width: 700px;
-    height: 120px;
-    margin: 200px 450px 280px 450px;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -130,29 +103,20 @@ header {
 }
 
 .button{
-    margin: 30px 700px 200px 700px;
     padding: 10px 32px;
-    width: 200px;
-    height: 50px;
     background: var(--blue-color);
     border-radius: 4px;
     color: #fff;
     font-size: 16px;
     line-height: 1.5;
     cursor: pointer;
+    font-family: inherit;
 }
 
 .our-principles{
-    width: 1170px;
-    height: 100px;
-    margin: 92px 215px 92px 215px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .principles-title{
-    margin-bottom: 10px;
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.42;
@@ -162,9 +126,6 @@ header {
 }
 
 .principle{
-    width: 270px;
-    height: 100px;
-    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -172,77 +133,45 @@ header {
 }
 
 .what-we-do{
-    width: 1170px;
-    height: 390px;
-    margin-left: 215px;
-    margin-top: 92px;
 }
 
 .imges-what-we-do{
-    display: flex;
-    margin-top: 50px;
-    justify-content: space-between;
 }
 
 .img-what-we-do{
-    width: 370px;
-    height: 294px;
 }
 
 .photo-of-the-participant{
     width: 270px;
-    height: 260px;
 }
 
-.our-team{
-    margin-top: 94px;
-    padding-top: 94px;
-    height: 648px;
-    width: 1600px;
-    background-color: #F5F4FA;
-}
+.our-team{}
 
 .team {
-    display: flex;
-    width: 1170px;
-    height: 368px;
-    margin: 50px auto;
-    justify-content: space-between;
 }
 
 .team-participents{
-    width: 270px;
-    height: 368px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;    
 }
 
 .name-of-participant{
-    margin-top: 30px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
 
 .job-title{
-    margin-top: 10px;
-    font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--grey-color);
 }
 /* END OF MAIN */
 /* FOOTER */
 footer{
-    display: flex;
-    flex-direction: column;
-    width: 1600px;
-    height: 252px;
     background: #2F303A;    
 }
 
@@ -251,11 +180,6 @@ footer{
 }
 
 address{
-    margin-left: 215px;
-    margin-top: 20px;
-    height: 81px;
-    width: 230px;
-    justify-content: space-between;
 }
 
 .contacts-footer{
@@ -270,8 +194,6 @@ address{
 }
 
 .company-adress{
-    font-style: normal;
-    font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;    
     color: white;    
@@ -279,8 +201,6 @@ address{
 /* END OF FOOTER */
 
 .main-portfolio {
-    width: 1600px;
-    height: 1880px;
     font-family: var(--main-font);
     color: var(--black-color);
     font-weight: 400;
@@ -288,20 +208,13 @@ address{
 
 /* PORTFOLIO`S MAIN */
 .body-portfolio{
-    width: 1170px;
-    height: 1360px;
-    margin: 94px 215px 94px 215px;
 }
 
 .filters{
-    width: 610px;
-    height: 54px;
-    margin: 94px 465px 34px 465px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .filter{
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -325,19 +238,13 @@ address{
 }
 
 .project{
-    width: 370px;
-    height: 404px;
 }
 
 .project-image{
     width: 370px;
-    height: 294px;
 }
 
 .project-title{
-    margin: 20px 24px;
-    width: 322px;
-    height: 70px;
 }
 
 .project-name{
@@ -348,8 +255,6 @@ address{
 }
 
 .project-type{
-    margin-top: 4px;
-    font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--grey-color);
