@@ -190,6 +190,7 @@ address{
 .contact-footer{
     text-decoration: none;
     color: var(--transparent-white);
+    font-style: normal;
 }
 
 .company-adress{
