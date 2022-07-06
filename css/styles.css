@@ -19,7 +19,6 @@
 .main-index {
     font-family: var(--main-font);
     color: var(--black-color);
-    font-weight: 400;
     text-decoration: none;
 }
 
@@ -56,6 +55,10 @@ header {
 }
 
 .header-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     text-decoration: none;
     cursor: pointer;
 }
@@ -77,15 +80,11 @@ header {
 .contacts-header{
 }
 
-.infodevstudio{
+.contact{
     text-decoration: none;
     color: var(--grey-color);
 }
 
-.phone{
-    color: var(--grey-color);
-    text-decoration: none;
-}
 /* END OF HEADER */
 /* MAIN */
 .first-part{
@@ -195,7 +194,8 @@ address{
 
 .company-adress{
     line-height: 1.7;
-    letter-spacing: 0.03em;    
+    letter-spacing: 0.03em;
+    font-style: normal;
     color: white;    
 }
 /* END OF FOOTER */
@@ -203,7 +203,6 @@ address{
 .main-portfolio {
     font-family: var(--main-font);
     color: var(--black-color);
-    font-weight: 400;
 }
 
 /* PORTFOLIO`S MAIN */
