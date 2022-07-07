@@ -52,6 +52,7 @@ header {
 }
 
 .pages{
+    list-style-type: none;
 }
 
 .header-link{
@@ -61,6 +62,15 @@ header {
     letter-spacing: 0.02em;
     text-decoration: none;
     cursor: pointer;
+}
+
+.contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--grey-color);
 }
 
 .contact:hover,
@@ -78,11 +88,7 @@ header {
 }
 
 .contacts-header{
-}
-
-.contact{
-    text-decoration: none;
-    color: var(--grey-color);
+    list-style-type: none;
 }
 
 /* END OF HEADER */
@@ -103,6 +109,7 @@ header {
 
 .button{
     padding: 10px 32px;
+    border: 0;
     background: var(--blue-color);
     border-radius: 4px;
     color: #fff;
@@ -113,6 +120,7 @@ header {
 }
 
 .our-principles{
+    list-style-type: none;
 }
 
 .principles-title{
@@ -135,6 +143,7 @@ header {
 }
 
 .imges-what-we-do{
+    list-style-type: none;
 }
 
 .img-what-we-do{
@@ -147,10 +156,11 @@ header {
 .our-team{}
 
 .team {
+    list-style-type: none;
 }
 
 .team-participents{
-    background: #FFFFFF;
+    background: var(--white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;    
 }
@@ -164,6 +174,7 @@ header {
 }
 
 .job-title{
+    font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--grey-color);
@@ -175,7 +186,7 @@ footer{
 }
 
 .footer-logo{
-    color: white;
+    color: var(--white);
 }
 
 address{
@@ -185,19 +196,23 @@ address{
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    list-style-type: none;
 }
 
 .contact-footer{
+    font-weight: 400;
     text-decoration: none;
     color: var(--transparent-white);
     font-style: normal;
 }
 
 .company-adress{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    font-style: normal;
-    color: white;    
+    color: var(--white);    
 }
 /* END OF FOOTER */
 
@@ -211,6 +226,7 @@ address{
 }
 
 .filters{
+    list-style-type: none;
 }
 
 .filter{
@@ -222,6 +238,7 @@ address{
     padding: 6px 22px;
     background-color: var(--light-grey);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border: 0;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -238,6 +255,7 @@ address{
 }
 
 .project{
+    list-style-type: none;
 }
 
 .project-image{
