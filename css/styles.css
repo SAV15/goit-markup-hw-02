@@ -16,6 +16,12 @@
 
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 .main-index {
     font-family: var(--main-font);
     color: var(--black-color);
@@ -32,6 +38,8 @@
 
 /* HEADER */
 header {
+    border-bottom: 1px;
+    border-color: rgba(236, 236, 236, 1);
 }
 
 .logo{
