@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href=".\modern-normalize\modern-normalize.css"
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@100;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="./modern-normalize/modern-normalize.css" />
+    <link rel="stylesheet" href="./css/main.css"/>
 </head>
 <body>
     <header>
-        <a href=""><span>Web</span>Studio</a>
+        <a class="logo header-logo" href="./index.html"><span class="logo-span">Web</span>Studio</a>
         <nav>
-            <ul>
-                <li><a href="">Студія</a></li>
-                <li><a href="">Портфоліо</a></li>
-                <li><a href="">Контакти</a></li>
+            <ul class="nav">
+                <li><a class="header-link current-page" href="./index.html">Студія</a></li>
+                <li><a class="header-link" href="./portfolio.html">Портфоліо</a></li>
+                <li><a class="header-link" href="">Контакти</a></li>
             </ul>
             <address>
-                <ul>
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <ul class="contacts">
+                    <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
             </address>
 
@@ -27,9 +30,9 @@
     </header>
     <main>
         <!-- Герой -->
-        <section>
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button>Замовити послугу</button>
+        <section class="hero">
+            <h1 class="hero-title">Ефективні рішення </br>для вашого бізнесу</h1>
+            <button class="hero-button">Замовити послугу</button>
         </section>
         <!-- Наші принципи -->
         <section>
@@ -88,17 +91,16 @@
                 </li>
             </ul>
         </section>
-        <!-- Підвал -->
-        <footer>
-            <span>WebStudio</span>
-            <address>
-                <ul>
-                    <li><a href="https://www.google.com.ua/maps/place/GoIT/@50.4265627,30.5358185,17z/data=!4m16!1m9!3m8!1s0x40d4cf276a2f0795:0x11cc0aa717323e3e!2sGoIT!8m2!3d50.4265593!4d30.5383934!9m1!1b1!16s%2Fg%2F11gk8wnqlj!3m5!1s0x40d4cf276a2f0795:0x11cc0aa717323e3e!8m2!3d50.4265593!4d30.5383934!16s%2Fg%2F11gk8wnqlj?hl=ru&entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D">м. Київ, пр-т Лесі Українки, 26</a></li>
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-                </ul>
-                </address>
-        </footer>
     </main>
+    <footer>
+        <span>WebStudio</span>
+        <address>
+            <ul>
+                <li><a href="https://www.google.com.ua/maps/place/GoIT/@50.4265627,30.5358185,17z/data=!4m16!1m9!3m8!1s0x40d4cf276a2f0795:0x11cc0aa717323e3e!2sGoIT!8m2!3d50.4265593!4d30.5383934!9m1!1b1!16s%2Fg%2F11gk8wnqlj!3m5!1s0x40d4cf276a2f0795:0x11cc0aa717323e3e!8m2!3d50.4265593!4d30.5383934!16s%2Fg%2F11gk8wnqlj?hl=ru&entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D">м. Київ, пр-т Лесі Українки, 26</a></li>
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+            </address>
+    </footer>
 </body>
 </html>
