@@ -1,40 +1,111 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./modern-normalize/modern-normalize.css" />
-    <link rel="stylesheet" href="./css/main.css"/>
-</head>
-<body>
-    <header>
-        <a href="./index.html"><span>Web</span>Studio</a>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Студія</a></li>
-                <li><a href="./portfolio">Портфоліо</a></li>
-                <li><a href="">Контакти</a></li>
-            </ul>
-            <address>
-                <ul>
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-                </ul>
-            </address>
-
-        </nav>
-    </header>
-
-    <footer>
-            <span>WebStudio</span>
-            <address>
-                <ul>
-                    <li><a href="https://www.google.com.ua/maps/place/GoIT/@50.4265627,30.5358185,17z/data=!4m16!1m9!3m8!1s0x40d4cf276a2f0795:0x11cc0aa717323e3e!2sGoIT!8m2!3d50.4265593!4d30.5383934!9m1!1b1!16s%2Fg%2F11gk8wnqlj!3m5!1s0x40d4cf276a2f0795:0x11cc0aa717323e3e!8m2!3d50.4265593!4d30.5383934!16s%2Fg%2F11gk8wnqlj?hl=ru&entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D">м. Київ, пр-т Лесі Українки, 26</a></li>
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-                </ul>
-                </address>
-    </footer>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@100;400;500;700;900&display=swap"
+		/>
+		<link rel="stylesheet" href="./modern-normalize/modern-normalize.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<header>
+			<a class="logo header-logo" href="./index.html">
+				<span class="logo-span">Web</span>Studio
+			</a>
+			<nav>
+				<ul class="nav">
+					<li><a class="header-link" href="./index.html">Студія</a></li>
+					<li><a class="header-link current-page" href="./portfolio.html">Портфоліо</a></li>
+					<li><a class="header-link" href="">Контакти</a></li>
+				</ul>
+				<address>
+					<ul class="header-contacts contacts">
+						<li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+						<li><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+					</ul>
+				</address>
+			</nav>
+		</header>
+		<main>
+			<ul class="filters">
+				<li><button class="filter">Усі</button></li>
+				<li><button class="filter">Веб-сайти</button></li>
+				<li><button class="filter">Додатки</button></li>
+				<li><button class="filter">Дизайн</button></li>
+				<li><button class="filter">Маркетинг</button></li>
+			</ul>
+			<ul class="projects">
+				<li class="project">
+					<img  src="./images/tehnocryak.jpg" class="project-image" />
+					<p class="project-title">Технокряк</p>
+					<p class="project-overview">Веб-сайт</p>
+				</li>
+				<li class="project">
+					<img  src="./images/basketball.jpg" class="project-image" />
+					<p class="project-title">Постер New Orlean vs Golden Star</p>
+					<p class="project-overview">Дизайн</p>
+				</li>
+				<li class="project">
+					<img  src="./images/logo-seafood.jpg" class="project-image" />
+					<p class="project-title">Ресторан Seafood</p>
+					<p class="project-overview">Додаток</p>
+				</li>
+				<li class="project">
+					<img  src="./images/prime.jpg" class="project-image" />
+					<p class="project-title">Проєкт Prime</p>
+					<p class="project-overview">Маркетинг</p>
+				</li>
+				<li class="project">
+					<img  src="./images/boxes.jpg" class="project-image" />
+					<p class="project-title">Проєкт Boxes</p>
+					<p class="project-overview">Додаток</p>
+				</li>
+				<li class="project">
+					<img  src="./images/inspirations-has-no-borders.jpg" class="project-image" />
+					<p class="project-title">Inspiration has no Borders</p>
+					<p class="project-overview">Веб-сайт</p>
+				</li>
+				<li class="project">
+					<img  src="./images/limited-edition.jpg" class="project-image" />
+					<p class="project-title">Видання Limited Edition</p>
+					<p class="project-overview">Дизайн</p>
+				</li>
+				<li class="project">
+					<img  src="./images/lab.jpg" class="project-image" />
+					<p class="project-title">Проєкт LAB</p>
+					<p class="project-overview">Маркетинг</p>
+				</li>
+				<li class="project">
+					<img  src="./images/growing-business.jpg" class="project-image" />
+					<p class="project-title">Growing Business</p>
+					<p class="project-overview">Додаток</p>
+				</li>
+			</ul>
+		</main>
+		<footer>
+			<a class="logo footer-logo">
+				<span class="logo-span">Web</span>Studio
+			</a>
+			<address class="contacts">
+				<ul>
+					<li>
+						<a
+							class="address"
+							href="https://www.google.com.ua/maps/place/GoIT/@50.4265627,30.5358185,17z/data=!4m16!1m9!3m8!1s0x40d4cf276a2f0795:0x11cc0aa717323e3e!2sGoIT!8m2!3d50.4265593!4d30.5383934!9m1!1b1!16s%2Fg%2F11gk8wnqlj!3m5!1s0x40d4cf276a2f0795:0x11cc0aa717323e3e!8m2!3d50.4265593!4d30.5383934!16s%2Fg%2F11gk8wnqlj?hl=ru&entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+						>
+							м. Київ, пр-т Лесі Українки, 26
+						</a>
+					</li>
+					<li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+					<li><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+				</ul>
+			</address>
+		</footer>
+	</body>
 </html>
